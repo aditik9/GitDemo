@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.269">
+    <testcase classname="Portal Login" name="Homepage default login" time="0.041">
+        <system-out><![CDATA[Given Validate the Browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login 2" time="0.003">
+        <system-out><![CDATA[Given Validate the Browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User login into application with "john" and password "4321"............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login 3" time="0.004">
+        <system-out><![CDATA[Given Validate the Browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User login into application with "john" and password "4321"............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login 4" time="0.005">
+        <system-out><![CDATA[Given Validate the Browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User sign up with following details....................................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
